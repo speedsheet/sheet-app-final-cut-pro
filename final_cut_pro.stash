@@ -1,0 +1,404 @@
+# Final Cut Pro
+
+
+# Summary
+
+
+### Project Structure
+
+Library
+	Files
+	Event
+		Project
+
+
+### Screen Components
+
+	Sidebar
+	Browser
+	Viewer
+	Canvas
+	Timeline
+	Playhead
+
+# How To
+
+@ how-to
+
+
+### Clip - Split
+
+<cb>⌘ + B<>
+
+Or
+
+Place line at split point (Snap to marker for more precision)
+Menu -> Modify -> Split
+@
+@ Cut, timeline
+
+
+
+### Clip - Trim - Left, Right
+
+Go to left or right margin.
+Drag towards center to shorten.
+@
+@ timeline
+
+
+
+### Clip - Ripple Delete / Cut To End
+
+Key:
+
+<cb>Option ⌥ + ]<>
+
+Deletes everything to right.
+@
+@ timeline
+
+
+
+### Clip - Ripple Delete / Cut To Start
+
+Key:
+
+<cb>Option ⌥ + [<>
+
+Deletes everything to left.
+@
+@ timeline
+
+
+
+### Clips - Combine
+
+<card>Select Clips
+Right Click
+Select "New Compound Clip..."
+Save<>
+
+Joins multiple clips on the timeline together and saves them as a new clip.
+The clips are then replaced by the new clip.
+@
+@ group together, merge
+
+
+
+### Import - From Apple Photos
+
+Export videos from Photos into the file system.
+Drag the video files onto the timeline. <m>(Confirm)<>
+
+
+Notes:
+There is no one step way to do this.
+Drag and drop from Photos only copies a photo of the video (WTF?).
+
+
+
+### Freeze Frame - Create
+
+Set position on timeline.
+
+Key:
+
+<cb>Option ⌥ + F<>
+
+Menu:
+
+<cb>Edit
+-> Add Freeze Frame<>
+
+
+
+### Marker - Create
+
+Key:
+
+<cb>M<>
+
+Press M to mark a spot.
+@
+@ place, spot
+
+
+
+### Marker - Clear All
+
+There is no easy way to do this.
+Clear one at a time.
+@
+@ place, spot
+
+
+
+### Marker - Move
+
+Select Marker
+Use Cut, Paste.
+
+Markers can not be dragged.
+@
+@ place, spot
+
+
+
+### Media Browser - Add Clip To Timeline
+
+Key:
+
+<cb>E<>
+
+
+Adds the selected clip from the media browser to the end of the timeline.
+
+
+
+### Media Browser - Clip - Select All
+
+Key:
+
+<cb>X<>
+
+
+
+### Media Browser - Clip - Set Start Point
+
+Key:
+
+<cb>I<>
+
+
+Sets the starting point in the clip.
+I (In)
+@
+@ scrubbing
+
+
+
+### Media Browser - Clip - Set End Point
+
+Key:
+
+<cb>E<>
+
+
+Sets the starting point in the clip.
+O (Out)
+@
+@ scrubbing
+
+
+
+### Media Browser Scrubbing - Toggle On / Off
+
+Key:
+
+<cb>S<>
+
+
+Toggles clip scrubbing in Media Browser (top right).
+
+
+
+### Object - Connection - Move
+
+Select Object
+
+<cb>Command ⌘ + Option ⌥ +  Click New Location<>
+@
+@ connector, audio track, sound
+
+
+
+### Object - Resize In Viewer
+
+Place Playhead on correct time.
+Select object on the timeline.
+Right click on the viewer.
+Select "Transform"
+@
+@ image, picture, position
+
+
+
+
+### Playhead - Move 1 Second Forward
+
+<cb>⮕ Right Arrow<>
+@
+@ play head
+
+
+
+### Playhead - Move 1 Second Backward
+
+<cb>⬅ Left Arrow<>
+@
+@ play head
+
+
+
+### Playhead - Move To Start
+
+<cb>Fn + ⬅ Left Arrow<>
+@
+@ play head, beginning
+
+
+
+### Playhead - Move To End
+
+<cb>Fn + ⮕ Right Arrow<>
+@
+@ play head
+
+
+
+### Shape - Add
+
+Select Show/Hide Generators Icon (Top Left)
+
+-> Generator
+-> Elements
+
+
+Select "Shapes"
+Drag onto Timeline
+
+Select Inspector (Top Right)
+
+Select Shape (Circle, Square, Diamond, Arrow, Heart, etc.)
+@
+@ Circle, Square, Diamond, Arrow, Heart
+
+
+
+### Text - Add
+
+Select Show/Hide Generators Icon (Top Left)
+
+-> Generator
+-> Titles
+-> Bumper/Opener
+
+Select "Basic title"
+
+
+
+### Text - Add Background
+
+Can't do directly. Add a background effect.
+
+Select Titles & Generators Sidebar (Top Left)
+Select Generators
+Select Solids
+Select Color or Custom from options.
+Drag to Timeline
+Position. Set color, transaparancy etc.
+
+
+
+### Text - Set Color
+
+Select text in timeline.
+Select the Text Inspector tab in the canvas.
+Check "Face" in Face section.
+Click "Show" on Face section.
+Select color.
+
+
+
+### Zoom - In
+
+<cb>Command ⌘ + =<>
+
+
+
+### Zoom - Out
+
+<cb>Command ⌘ + -<>
+
+
+
+### Zoom - To Fit
+
+<cb>Shift + Z<>
+
+Views the entire project.
+
+
+
+### Zoom - To Selection
+
+<cb>Control ^ + Z<>
+@
+@ Samples
+
+
+
+# Shortcuts - Customize
+
+From Menu:
+
+<card>Final Cut Pro
+-> Commands
+-> Customize<>
+
+
+
+# Screen Layout
+
+Left: Media Browser
+Right: Inspector
+Bottom: Timeline
+
+
+
+# Acronyms
+
+
+# Terms
+@
+@ Terms
+
+
+### Event
+An event is a Subfolder in a library.
+
+
+
+### Keyframe
+The starting or ending poin of a transition.
+The keyframe is marked on the timeline
+
+<m>(need more details)<>
+@
+@ Key Frame
+
+
+
+### Library
+A library is a collection of files.
+
+
+
+### Magnetic Timeline
+The Final Cut Pro feature that snaps clips together in the timeline.
+
+
+
+### Project
+A timeline
+Stored in an Event
+
+
+
+### Ripple Delete
+Deleting a clip and updating the remaining timeline.
+
+
+
+
