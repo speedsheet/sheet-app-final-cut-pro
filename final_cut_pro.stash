@@ -209,7 +209,7 @@ Select Object
 
 <cb>Command ⌘ + Option ⌥ +  Click New Location<>
 @
-@ connector, audio track, sound
+@ connector, audio track, sound, attachment point
 
 
 
@@ -227,7 +227,7 @@ Select "Transform"
 
 ### Playhead - Move 1 Second Forward
 
-<cb>⮕ Right Arrow<>
+<cb>Right Arrow ⮕<>
 @
 @ play head
 
@@ -235,23 +235,39 @@ Select "Transform"
 
 ### Playhead - Move 1 Second Backward
 
-<cb>⬅ Left Arrow<>
+<cb>Left Arrow ⬅<>
 @
 @ play head
 
 
 
-### Playhead - Move To Start
+### Playhead - Move To Clip Start
 
-<cb>Fn + ⬅ Left Arrow<>
+<cb>Up Arrow ⬆<>
 @
 @ play head, beginning
 
 
 
-### Playhead - Move To End
+### Playhead - Move To Clip End
 
-<cb>Fn + ⮕ Right Arrow<>
+<cb>Down Arrow ⬇<>
+@
+@ play head
+
+
+
+### Playhead - Move To Project Start
+
+<cb>Fn + Left Arrow ⬅<>
+@
+@ play head, beginning
+
+
+
+### Playhead - Move To Project End
+
+<cb>Fn + Right Arrow ⮕<>
 @
 @ play head
 
@@ -272,7 +288,7 @@ Select Inspector (Top Right)
 
 Select Shape (Circle, Square, Diamond, Arrow, Heart, etc.)
 @
-@ Circle, Square, Diamond, Arrow, Heart
+@ circle, square, box, rectangle, diamond, arrow, heart
 
 
 
@@ -285,6 +301,10 @@ Select Show/Hide Generators Icon (Top Left)
 -> Bumper/Opener
 
 Select "Basic title"
+
+Drag onto timeline.
+
+Set text in Text Inspector.
 
 
 
