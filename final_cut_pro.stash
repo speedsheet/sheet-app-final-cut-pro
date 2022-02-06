@@ -377,7 +377,48 @@ Bottom: Timeline
 
 
 
-# Acronyms
+# Effects
+
+
+### Effect - Speech Bubble
+
+
+Select Show/Hide Generators Icon (Top Left)
+
+<card>-> Generator
+-> Titles
+-> Elements<>
+
+Select "Speech"
+
+Drag onto timeline.
+
+Options:
+
+<in-2>Build In:
+
+	Starting Animation
+
+Build Out:
+
+	Ending Animation
+
+Bubble Type:
+
+<in-2><card>Oval
+Rectangle
+Rounded Rectangle
+Excited
+Thinking<><>
+
+Location:
+
+<in-2><card>Upper Right
+Upper Left
+Lower Right
+Lower Left<><><>
+
+Set text in Text Inspector.
 
 
 # Terms
