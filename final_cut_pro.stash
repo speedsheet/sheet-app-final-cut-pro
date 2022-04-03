@@ -17,6 +17,8 @@ Library
 	Sidebar
 	Browser
 	Viewer
+	Inspector
+
 	Canvas
 	Timeline
 	Playhead
@@ -24,6 +26,94 @@ Library
 # How To
 
 @ how-to
+
+
+
+### Browser - Clip - Set Start Point
+
+<cb>Click
+I (key)<>
+
+I = In
+@
+@ In
+
+
+
+### Browser - Clip - Set End Point
+
+<cb>Click
+O (key)<>
+
+O = Out
+@
+@ Out
+
+
+
+### Browser - Clip - Add To Timeline End
+
+<cb>Click
+E (key)<>
+
+E = End
+
+
+Adds to the end of the timeline.
+@
+@ End
+
+
+
+### Clip - Change Duration
+
+<cb>^ + D<>
+
+or
+
+<card>Right Click Item
+Select "Change Duration..."<>
+
+Type Duration
+@
+@ set, length
+
+
+
+### Clip - Move - Nudge Left / 1 Frame
+
+<cb>,<>
+@
+@,
+
+
+
+### Clip - Move - Nudge Left / 10 Frames
+
+<cb>Shift + ,<>
+@
+@,
+
+
+
+### Clip - Move - Nudge Right / 1 Frame
+
+<cb>.<>
+@
+@.
+
+
+
+### Clip - Move - Nudge Right / 10 Frames
+
+<cb>Shift + .<>
+@
+@.
+
+
+
+
+
 
 
 ### Clip - Split
@@ -225,7 +315,7 @@ Select "Transform"
 
 
 
-### Playhead - Move 1 Second Forward
+### Playhead - Move 1 Frame Forward
 
 <cb>Right Arrow ⮕<>
 @
@@ -233,7 +323,7 @@ Select "Transform"
 
 
 
-### Playhead - Move 1 Second Backward
+### Playhead - Move 1 Frame Backward
 
 <cb>Left Arrow ⬅<>
 @
@@ -241,19 +331,35 @@ Select "Transform"
 
 
 
-### Playhead - Move To Clip Start
+### Playhead - Move 1 Second Forward
+
+<cb>Shift + Right Arrow ⮕<>
+@
+@ play head
+
+
+
+### Playhead - Move 1 Second Backward
+
+<cb>Shift + Left Arrow ⬅<>
+@
+@ play head
+
+
+
+### Playhead - Move To Clip Start / Previous
 
 <cb>Up Arrow ⬆<>
 @
-@ play head, beginning
+@ play head, beginning, previous
 
 
 
-### Playhead - Move To Clip End
+### Playhead - Move To Clip End / Next
 
 <cb>Down Arrow ⬇<>
 @
-@ play head
+@ play head, next
 
 
 
@@ -328,6 +434,37 @@ Select the Text Inspector tab in the canvas.
 Check "Face" in Face section.
 Click "Show" on Face section.
 Select color.
+
+
+
+### Tracker - Create
+
+Select Clip
+Select Video Inspector tab.
+Scroll to "Trackers" section (bottom option)
+Select '+' To Add
+
+(Displays Tracker Grid)
+
+Set up Tracker Grid on Viewer
+Click "Analize" (top left of viewer)
+
+
+
+### Tracker - Rename
+
+Select Video Inspector tab.
+Scroll to "Trackers" section (bottom option)
+Double Click on Name (default is "Object")
+@
+@ name
+
+
+### Tracker - Attach
+
+Select Item
+In Viewer, Select Transform
+Select Tracker from drop down (top center of viewer).
 
 
 
