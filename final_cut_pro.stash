@@ -176,6 +176,25 @@ The clips are then replaced by the new clip.
 
 
 
+### Draw Mask - Create
+
+<card>Select Effects (Middle Bar, Right Side, Double Box Icon)
+Search "Draw Mask"
+Drop on Clip
+Edit Points<>
+
+
+
+### Draw Mask - Edit
+
+<card>Select Clip
+Show Video Inspector (Inspector, Top Right, Film Icon)
+Select Draw Mask<>
+
+The points should show in the viewer after selecting the draw mask.
+
+
+
 ### Import - From Apple Photos
 
 Export videos from Photos into the file system.
@@ -211,7 +230,7 @@ Key:
 
 Press M to mark a spot.
 @
-@ place, spot
+@ place, spot, tags, markers
 
 
 
@@ -220,7 +239,7 @@ Press M to mark a spot.
 There is no easy way to do this.
 Clear one at a time.
 @
-@ place, spot
+@ place, spot, tags, markers
 
 
 
@@ -231,7 +250,7 @@ Use Cut, Paste.
 
 Markers can not be dragged.
 @
-@ place, spot
+@ place, spot, tags, markers
 
 
 
@@ -465,6 +484,23 @@ Double Click on Name (default is "Object")
 Select Item
 In Viewer, Select Transform
 Select Tracker from drop down (top center of viewer).
+
+
+
+### View / Change - Video Resolution
+
+<card>Browser:
+Select the Project
+
+Inspector (Top Right):
+Select <i>i<> (info icon)<>
+
+The inspector will show the resolution.
+
+
+Edit:
+
+<card>Select: "Modify"<>
 
 
 
